@@ -1,0 +1,149 @@
+02/01/2022
+----------
+
+
+                           Identifiers
+                           -----------
+A name in Python Program is called Identifiers.
+It can be Variable Name or function name or module name or class name.
+
+Ex:-
+
+variable_name:-     a = 10
+
+Rules to define identifiers in Python:-
+--------------------------------------
+
+1.The only allowed Characters in python are.
+
+a.alphabets symbol(either lower case and upper case)
+b.digit(0 to 9)
+c.underscore symbol(_)
+
+Ex:-
+
+>>> Bank=9
+>>> bank
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    bank
+NameError: name 'bank' is not defined
+>>> bank_ui =9
+>>> 78bank = 78
+SyntaxError: invalid syntax
+>>> bank78 =90
+>>> bank&tu=89
+SyntaxError: cannot assign to operator
+>>> 
+
+
+2.Identifiers should not starts with digit.
+
+-> 123total ----------wrong
+-> total123 ----------right
+
+3.Identifiers are case sensitive ,of couse python language is case sensitive language.
+
+ex:-
+
+>>> total = 10
+>>> print(TOTAL)
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    print(TOTAL)
+NameError: name 'TOTAL' is not defined
+>>> print(total)
+10
+>>> 
+
+
+
+Identifiers Points:-
+------------------
+
+1.Alphabets symbols(both upper and lower)
+
+>>> Total = 10
+>>> total = 10
+
+2.Only (_) underscore symbol is allowed.if identifiers is start with underscore(_) then it's private or other mode.
+
+>>> abc_abc = 10---normal
+>>> _abc = 10-----protected
+>>> __abc = 10-----private
+
+3.Identifiers should not start with digits.
+
+>>> 78bank = 78
+SyntaxError: invalid syntax
+
+4.Identifiers are case sensitive.
+
+>>> total = 10
+>>> print(TOTAL)
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    print(TOTAL)
+NameError: name 'TOTAL' is not defined
+
+5.we can not use keyword or reserved word as Identifiers.-----
+6.there is no limit for python Identifiers.But not recommended to use too lengthy Identifiers.
+7.except _ underscore symbol,other symbol are not alloweed.
+
+ bank&tu=89
+SyntaxError: cannot assign to operator
+
+
+Note:-
+
+1. Normal variable => 
+
+x = 10 
+
+2.if Identifiers start with single(_) then  it indicates that it is protected variable.
+_x = 10
+
+3.If indetifiers start with double(_) then it indicates that it is Private variable.
+
+__x = 10
+
+
+
+Casing:-
+------
+
+Casing are two types snake casing and camel casing.
+
+Camel Casing:-
+-------------
+First leter of word is Uppercase and rest of the letters lower case and here no symbols are allowed,if we define two words in one identifiers then we write First letter of both wors are in Upper Case.
+
+ex:-
+
+BankReciverName = "Santhosh Deshmukh"
+
+Snake Casing:-
+------------
+
+Here we can not use upper case,and only(_) underscore is allowed.
+
+ex:-
+
+bank_reciver_name ="Santhosh Deshmukh"
+
+
+
+
+                     Reserved Words/Keywords
+                     -----------------------
+
+
+In python some word are reserved to reprsent some meaning of functionality.Such type of words are called Reseved words.
+
+
+There 35 reserved words available in python.
+
+>>> import keyword
+>>> keyword.kwlist
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+>>> 

@@ -1,0 +1,144 @@
+5/1/2022
+
+
+                      Data Types
+                      ----------
+
+Data type represent the type of data present inside a variable.
+In python we are not reqyuired to specify the type explicitly.Based on vlue provided the type will be assigned automatically.Hence python is Dynamically Typed lang.
+
+There are 14 types od Data Present in Python.
+
+1.Integer(int)
+2.Float(float)
+3.Complex(complex)
+4.Boolean(bool)
+5.String(str)
+6.Bytes(bytes)
+7.Bytearray(bytearray)
+8.Range(range)
+9.List(list)
+10.Tuple(tuple)
+11.Set(set)
+12.Frozenset(frozenset)
+13.Dictionary(dict)
+14.None(None)
+
+
+Garbage Collection :-
+-------------------
+
+Usually Programmer taking very much care while creating object,but negleeting destruction of useless object.Because og his negletance,total memory can be filled with useless object which creates memory problem and total application will be down 
+with out of memory error.
+
+But in python,We have some assitance which is always running in the background to destory useless object,Because this assistance the chance of falling python program with memory problem is very less.The assistance is nothing but Garbage Collection.
+
+ex:-
+
+>>> a = 10
+>>> b = 10
+>>> a
+10
+>>> b
+10
+>>> id(10)
+2136897448528
+>>> id(a)
+2136897448528
+>>> id(b)
+2136897448528
+>>> 
+>>> a = 20
+>>> id(a)
+2136897448848
+>>> 
+
+Basci In built Functions:-
+
+1.print()---To print value
+2.type()----knowing the data type.
+3.dir()-----function of the data.
+4.help()-----how to use the fuction of data.
+5.id()------location of data.
+
+
+                        Integer(int)
+                        -----------
+
+we can use int data type to represent whole number(integral value).
+
+>>> a = 10
+>>> type(a)
+<class 'int'>
+>>> 
+
+We can represent int values form.
+
+1.decimal form
+2.Binary form'
+3.Octal form
+4.Hexa Decimal Form.
+
+int to Base form:-
+
+Base Conversion:-
+----------------
+
+
+
+1.Decimal(float)-:(Base:-10)
+
+It is the default number system in python:- float
+The allowed digits are 0 to 9
+ex:-
+>>> a = 10
+>>> float(a)
+10.0
+>>> 
+
+2.Binary form(Base:-2)
+
+Inbuitl function:- bin()
+The allowed digits are:- 0 and 1
+Literal value should be prefixed with 0b.
+
+ex:-
+
+>>> a = 10
+>>> b = bin(a)
+>>> b
+'0b1010'
+>>> type(b)
+<class 'str'>
+>>> 
+
+3.Octal form(Base:-8)
+
+
+Inbuilt function:- oct()
+The allowed digits are:- 0 to 7
+Literal value should be prefixed with 0o.
+
+ex:-
+
+>>> a = 10
+>>> b = oct(a)
+>>> b
+'0o12'
+>>> type(b)
+<class 'str'>
+>>> 
+
+4.Hexal Decimal Form:-(Base-16)
+
+Inbuilt function:- hex()
+The allowed digits are:- 0 to 9 and a to f
+Literal value should be prefixed with 0x.
+
+ex:-
+
+>>> a = 10
+>>> b = hex(a)
+>>> b
+'0xa'
+>>> 

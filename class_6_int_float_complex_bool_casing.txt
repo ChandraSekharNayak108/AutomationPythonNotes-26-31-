@@ -1,0 +1,281 @@
+6/1/2021
+--------
+
+Integer(int data type).
+----------------------
+
+we can use int data type to represent whole number(integral number).
+
+>>> a = -100
+>>> type(a)
+<class 'int'>
+>>> 
+>>> b = 100
+>>> type(b)
+<class 'int'>
+
+we can represent int values in----Base conversion
+
+1.Decimal form
+2.Binary form
+3.Octal form
+4.Hexa Decimal form
+
+
+1.Decimal form(base-10):-float data type
+-----------------
+
+It is the default number system in python
+The allowed digits are :- 0 to 9
+
+>>> b = 100
+>>> c = float(b)
+>>> c
+100.0
+>>> type(c)
+<class 'float'>
+
+
+
+2.Binary form(base-2):-
+---------------
+
+The allowed digits are :- 0 & 1
+literal value should be prefixed with 0b or OB
+int to binary:- bin()
+
+>>> b = 100
+>>> bin(b)
+'0b1100100'
+
+
+3. Octal Number():-
+------------------
+
+The allowed digits are 0 to 7
+Literal value should be prefixed with 0O or 0o.
+int to octal :- oct()
+
+>>> b = 100
+>>> oct(b)
+'0o144'
+
+
+4.Hexa Decimal form(Base:-16)
+--------------------
+
+The allowed digits are 0 to 9 and a-f(both lower and upper case)
+Literal value should be prefixed with 0X or 0x.
+int to hexa :- hex()
+
+>>> b = 100
+>>> hex(b)
+'0x64'
+
+
+
+Float Data type:-
+---------------
+
+we can use float data type to represent floating point value(decimal values)
+
+>>> f = 1.234
+>>> type(f)
+<class 'float'>
+>>> 
+
+
+Exponential form:-
+----------------
+
+we can also represent floating point value by using exponential form.(scientific natation)
+
+>>> f = 1.2e3
+>>> f
+1200.0
+
+The main adv of exponential form is we can represent big value in less moemory.
+
+
+Complex Number:-
+---------------
+
+A complex number is of the form a+bj
+
+
+a:- Real number(int + float)
+b:- Imaginary number(j is include and j is unsloved value):- int and float
+
+ex:-
+
+>>> a = 3+5j
+>>> type(a)
+<class 'complex'>
+
+>>> b = -9-7j
+>>> type(b)
+<class 'complex'>
+
+Addtion and substration of complex number:-
+
+Real only add or sub with another Real numeber
+Imaginary only add or sub with another imaginary numeber
+
+add:-
+
+>>> a = 7+9j
+>>> b = 8+7j
+>>> 
+>>> a+b
+(15+16j)
+>>> 
+>>> 
+>>> c = -9+8j
+>>> d =  8-10j
+>>> c+d
+(-1-2j)
+
+
+sub:-
+
+>>> a = 7+4j
+>>> b = 10+9j
+>>> 
+>>> a-b
+(-3-5j)
+>>> 
+
+
+4.Boolean(bool()):-
+-------------------
+
+we can use this data type to represent boolean values. For only yes or no answer.
+
+The only allowed values for this data type are:- True and False.
+
+Internally Python reprsents True as 1 and False as 0.
+
+>>> True + True
+2
+>>> True + False
+1
+>>> False + False
+0
+>>> 
+
+
+>>> a = True
+>>> type(a)
+<class 'bool'>
+>>> 
+>>> b = False
+>>> type(b)
+<class 'bool'>
+
+>>> s = ['a',889,'b',989]
+>>> 1 in s
+False
+>>> 'b' in s
+True
+>>> 
+
+
+String(str()):-
+-----------------
+
+str represent String Data type.
+
+A string is sequence of any keyboard letter enclosed within single or double or triple quotes.
+
+>>> a = ''
+>>> type(a)
+<class 'str'>
+>>> 
+>>> b = '()'
+>>> type(b)
+<class 'str'>
+>>> 
+>>> c = '!@()-=*&^%%WE^bsancbnmsabcj,sbcj'
+>>> type(c)
+<class 'str'>
+>>> 
+>>> d = ""
+>>> type(d)
+<class 'str'>
+>>> 
+>>> e = "hasjhcgusayhcy78q27ei2he27180eyhjdbsajkcgasuiyc9dqw"
+>>> type(e)
+<class 'str'>
+>>> 
+
+
+Triple Quotes(Multiple Quotes):-
+------------------------------
+
+By using single quote or double quote we cannot represent multiple4 ;lines string literals.
+
+Function:-
+---------
+
+def  add(a,b):
+	''' This function is using for addition purpose '''
+	c = a+b
+	return c
+
+
+class:-
+------
+
+class AdlofHitler(self):
+	''' This class was written for Germani Chansellor Adlof Hitler '''
+
+	def jhkwjkl_bwjbd():
+		evknekv
+
+Types of Triple quotes:-
+-----------------------
+
+There are 2 types of triple quote are present in python
+
+1.Single Triple quote :- ''' '''
+2.Double Triple quote :- """ """
+
+
+
+
+Note1:- When we can use in a worksheet a single Triple Quote,We can use in the whole Worksheet same things and for double triple quote follow the same rule.
+
+Note2:- When we can use in variable store string data so here we can start with single quote then we can use in the whole worksheet same things, and for double quote follow the same rule.
+
+Exception:-
+----------
+
+s = 'how's this'-----------wrong
+
+s = "how's this"-----------right
+
+
+
+Casing:-
+--------
+
+Camel Casing:-
+-------------
+We can write this casing using upper and lower case and here we start any word first as a uppercase and everything lower case,also here not using any whitespces.
+
+Ex:- StateBankOfIndia
+
+Use area:- FloderName,ClassName
+
+
+Sanke Casing:-
+------------
+we can write this casing using only lower case and here we can not use any whitespece ,only allowed underscore(_) coz of word relation mapping.
+
+ex:- state_bank_india
+
+Use area:- file_name,function_name
+
+
+
+

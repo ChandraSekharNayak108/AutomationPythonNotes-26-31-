@@ -1,0 +1,86 @@
+31/12/2021
+----------
+
+Ex:- To Print "HelloWorld"
+
+Java:-
+----
+
+public class HelloWorld
+{
+	p s v main{String[] args}
+	{
+		SOP("Hello World")
+	}
+}
+
+
+C:-
+--
+
+#include<stdio.h>
+void main()
+{
+	print("Hello World")
+}
+
+Python:-
+------
+
+print("Hello World")
+
+
+The name Python was selected from the Tv show "The complete Monty Python's Circus",Whuch was broadcasted in BBC 1969 to 1974
+
+
+Where we can use Python:-
+-----------------------
+
+1.For Developing Desktop Application.
+2.For Developing Web Application.
+3.For Deceloping Database Application.
+4.For Network Programming.
+5.For developing Games.
+6.For Data Analysis Applications.
+7.For Machine Learning.
+8.For IOT.
+9.For Developing AI Applications.
+
+Limitation of Python:-
+---------------------
+
+1.Not using For Mobile applications.
+2.Not using For Enterpris app,Backing sector.
+
+
+Features Of Python:-
+-------------------
+
+1.Simple and easy to learn
+2.Freeware and Opensource
+3.High Level Programming language
+4.Platform Independent.
+5.Portability.
+6.Dynamically Typed
+7.Both POPs(Procedure Oriented) and OOPs(Object Oriented).
+8.Extensive Library.
+
+
+Flavors Of python:-
+------------------
+
+1.CPython:-  Python to C
+2.Jython or JPython :- Python to Java
+3.IronPython:- Python to .net
+4.RubyPython :- Python to Ruby
+
+
+Python Version:-
+--------------
+
+Python 1.0V introduced in Jan 1994
+Python 2.0V introduced in Oct 2000
+Python 3,0V introduced in Dec 2008
+
+python 3.10.1   Python 2.9.13
+

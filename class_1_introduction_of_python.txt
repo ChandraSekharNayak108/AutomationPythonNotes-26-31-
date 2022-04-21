@@ -1,0 +1,62 @@
+28/12/2021
+----------
+
+                                  Language Fundamental
+                                  --------------------
+
+
+Low Level Programming:-
+----------------------
+
+1.It's totaly depends upon O and 1.
+
+ex:-
+
+a :-01100001	A :- 01000001
+
+corns:-
+
+1.It's too defficult to write something.
+2.Programming writing times are too late.
+
+pros:-
+
+1.Execute of the program is too fast.
+2.Return of the program is too fast.
+
+
+Middle Level Programming:-
+------------------------
+
+It's totally depends upon conveter,which convert english language to binary language.
+
+pros:-
+
+1.Writing speed of the program is fast.
+
+corns:-
+
+1.exceute of the program is too late.
+2.Return of the program also too late.
+
+High Level Programming:-
+----------------------
+
+It's totally deepends upon Opps(Object Oriented Programming Language) and Pops(Procedure Oriented Programming language).
+
+Pros:-
+
+1.Writing is speed is too fast.
+2.exection of the program is fast.
+3.Return of the program is fast.
+
+
+
+Introdunction:-
+--------------
+
+1.Python is a general purpose high level programming language.
+2.Python was developed by Guido Van Rossam in 1989 while working at National Research Institue at Netherland.
+3.Pthon was combination of two other language, C++ and Perl...and python intial name is abc.
+4.Python is scriting langauge means Pops(Procedure Oriented Programming language).
+5.Officailly Python was made available to public in 1991.The official DOB for python is Feb 20th 1991.
