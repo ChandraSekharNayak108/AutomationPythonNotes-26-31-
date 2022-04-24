@@ -1,0 +1,174 @@
+12/1/2022
+---------
+
+
+Imp:- capitalize,count,endswith,find,format,index,join,lower,replace,split,startswith,strip,swapcase,upper
+
+
+
+How to use any function:- 
+-----------------------
+
+dot method:- 
+
+class_name.function_name()
+
+data_type_of_variable_name.function_name()
+
+
+
+1.capitalize():- Make the first character is upper case and rest of the string is lower case.
+
+>>> s = 'SoCdEEn'
+>>> s.capitalize()
+'Socdeen'
+
+2.count():- count a specific charcater how may times is used in a string.
+
+>>> a = 'siskhsya O Anusandhan'
+>>> a.count('s')
+4
+
+3.endswith():-It's show the Boolean value,if we will give the right character to end the string then it's return True otherwise False.
+
+>>> s = 'SoCdEEn'
+>>> s.endswith('n')
+True
+>>> s.endswith('7')
+False
+
+4.startswith():-It's show the Boolean value,if we will give the right character to start the string then it's return True otherwise False.
+
+>>> s = 'SoCdEEn'
+>>> s.startswith('S')
+True
+>>> s.startswith('H')
+False
+>>> 
+
+5.replace():-
+
+>>> s = 'jello'
+>>> s.replace('j','h')
+'hello'
+>>> s.replace('jello','hi')
+'hi'
+>>> 
+>>> a = 'jello how are you joker'
+>>> a.replace('j','h')
+'hello how are you hoker'
+>>> a.replace('jello','Hello')
+'Hello how are you joker'
+>>> 
+29/10/2021
+----------
+
+Imp:- capitalize,count,endswith,find,format,index,join,lower,replace,split,startswith,strip,swapcase,upper
+
+
+6.strip():-To remove white spaces both sides.
+
+>>> s = '    Mahavira    '
+>>> s.strip()
+'Mahavira'
+>>> 
+
+7.find():- Returns index of first occurance of the given substring,If it is not available then we will get -1.
+
+>>> s = 'Learning Python is very easy'
+>>> 
+>>> s.find('Python')
+9
+>>> s.find('P')
+9
+>>> s.find('n')
+4
+>>> s.find('i')
+5
+>>> s.find('Java')
+-1
+>>> 
+
+8.index():- index() method is exactly same as find() method except that if the specified substring is not available the will ger ValueError.
+
+>>> s = 'Learning Python is very easy'
+>>> s.index('Python')
+9
+
+>>> s.index('i')
+5
+
+>>> s.index('java')
+Traceback (most recent call last):
+  File "<pyshell#60>", line 1, in <module>
+    s.index('java')
+ValueError: substring not found
+>>> 
+
+
+9.upper:- Convert whole string into the upper case.
+
+>>> 
+>>> s = 'Gogo MariNa'
+>>> s.upper()
+'GOGO MARINA'
+>>> 
+
+10.lower:- Convert the whole string into the lower case.
+
+>>> s = 'Gogo MariNa'
+>>> s.lower()
+'gogo marina'
+
+11.swapcase():- It's convert the uppercase to lower and vice vers.
+
+>>> s = 'Gogo MariNa'
+>>> s.swapcase()
+'gOGO mARInA'
+>>> 
+
+12.split():-The split() method splits a string into a list.
+
+s = 'Learning Python is very easy'
+>>> s.split()
+['Learning', 'Python', 'is', 'very', 'easy']
+>>> s = 'Learning/Python/is/very/easy'
+>>> s.split('/')
+['Learning', 'Python', 'is', 'very', 'easy']
+>>> s.split()
+['Learning/Python/is/very/easy']
+>>> 
+
+
+14.join:- The join() method takes all items in the collection of iterable and joins them into one string.
+
+>>> my_data = ('Hi','Carry','Minati')
+>>> x = '-'.join(my_data)
+>>> print(x)
+Hi-Carry-Minati
+>>> type(x)
+<class 'str'>
+>>> x = ' '.join(my_data)
+>>> print(x)
+Hi Carry Minati
+>>> x = '{//} '.join(my_data)
+>>> print(x)
+Hi{//} Carry{//} Minati
+>>> x = ' @'.join(my_data)
+>>> print(x)
+Hi @Carry @Minati
+>>> 
+
+
+15.format():- The format() method format the specified values and insert them inside the string's placeholder.
+
+>>> s = 'Counting the string'
+>>> 'Counting substring in the given string'
+'Counting substring in the given string'
+
+>>> s = 'Counting {0} {1} the {2} string'
+>>> s.format('substring','in','given')
+'Counting substring in the given string'
+>>> 
+
+Placeholder {} :- Insert the substring into a complete string.
